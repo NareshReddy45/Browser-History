@@ -1,0 +1,95 @@
+.bg-container {
+  background-color: #3367d6;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  /* height: 100vh; */
+}
+
+img[alt='app logo'] {
+  padding: 20px;
+}
+
+.top-container {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 10px;
+}
+
+.container {
+  background-color: #ffffff;
+  height: 130vh;
+}
+
+.search-image {
+  background-color: #2850a7;
+  border: 1px solid #ffffff;
+  padding: 5px;
+}
+
+input {
+  background-color: #2850a7;
+  border: 1px solid #ffffff;
+  height: 35px;
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.history-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.history-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 15px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-grow: 1; /* Takes up the remaining space */
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: auto; /* Pushes the delete button to the far right */
+}
+
+.delete-button img {
+  width: 20px;
+  height: 20px;
+}
+
+.no-history-message {
+  font-size: 1.2rem;
+  color: #666;
+  text-align: center;
+}
+
+.history-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2),
+    /* bottom shadow */ -4px 0 8px rgba(0, 0, 0, 0.2),
+    /* left shadow */ 4px 0 8px rgba(0, 0, 0, 0.2); /* right shadow */
+  padding: 20px;
+  /* margin: 20px; */
+  border-radius: 8px;
+  background-color: #ffffff; /* Ensures a solid background for the shadow effect */
+  margin: 50px;
+}
